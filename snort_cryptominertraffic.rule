@@ -1,0 +1,1 @@
+alert tcp any  -> any 3333 - 3360 ( msg:"Detection of Crypto Currency Miners";  content:"stratum|2b|tcp|3a 2f 2f|"; priority:1; )
